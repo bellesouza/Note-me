@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Space Grotesk', sans-serif;
+    line-height: 1.8;
+    background-color: #F4F4F9;
+    color: #000000;
+}
+
+header {
+    background-color: #8b36a0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Logo à esquerda e menu à direita */
+    align-items: center;
+}
+
+
+.logo {
+  /*     Define a largura máxima da logo */
+  flex: 0 0 2000px;
+	width: 270px;
+	margin: 40 auto;
+    height: 30px;
+    box-sizing: border-box;
+
+
+
+}
+h2 {
+    display: inline-flex;
+    font-size: 1.9em;
+    margin-block-start:0.2em;
+    margin-block-end: 1em;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+
+nav {
+    flex: 1; /* Garante que o menu ocupe o restante do espaço */
+}
